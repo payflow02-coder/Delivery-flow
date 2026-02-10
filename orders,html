@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мои заказы</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header>
+  <h1>🛒 Мои заказы</h1>
+  <a href="index.html">Назад</a>
+</header>
+
+<div class="orders">
+  <div class="order-card">
+    <h3>Заказ #45231</h3>
+    <p>Статус: В пути</p>
+  </div>
+
+  <div class="order-card">
+    <h3>Заказ #45232</h3>
+    <p>Статус: Сбор</p>
+  </div>
+</div>
+
+</body>
+</html>
