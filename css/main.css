@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f4f6fb;
+}
+
+header {
+  background: #111827;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tracker, .orders {
+  max-width: 700px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step {
+  opacity: .4;
+  font-weight: 600;
+}
+
+.step.active {
+  opacity: 1;
+  color: #2563eb;
+}
+
+.progress {
+  height: 6px;
+  background: #e5e7eb;
+  margin: 20px 0;
+}
+
+#bar {
+  height: 100%;
+  width: 0;
+  background: #2563eb;
+  transition: .4s;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: #2563eb;
+  border: none;
+  border-radius: 12px;
+  color: white;
+}
+
+.order-card {
+  padding: 15px;
+  background: #f9fafb;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
